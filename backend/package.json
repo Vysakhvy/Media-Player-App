@@ -1,0 +1,12 @@
+{
+  "name": "media-app-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple JSON Server backend for Media Player",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
